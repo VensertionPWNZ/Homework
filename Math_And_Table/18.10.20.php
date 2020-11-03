@@ -28,9 +28,11 @@ if ($x > -2 or  $x > 1 and $x < 3){
 
 //math 4
 
-$x1 = -2;
-$y1 = 1;
-if ($x1 == -2 and $y1 == 1) {
+$x = -2;
+$y = 0;
+$b = 1;
+$k = ($y-$b)/$x;
+if ( $x <= -2 && $y >= 0) {
     echo "true";
 } else {
     echo "false";
