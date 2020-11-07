@@ -5,11 +5,11 @@ $b = $_POST['string_2'];
 $c = $_POST['string_3'];
 
 if ($_POST["nameFUNC"] == "one") {
-    echo life($a,$b,$c);
+    echo request1($a,$b,$c);
 }
 if ($_POST["nameFUNC"] == "two") {
-    echo life2($a,$b,$c);
+    echo request2($a,$b,$c);
 }
 if ($_POST["nameFUNC"] == "three") {
-    echo life3($a,$b,$c);
+    echo request3($a,$b,$c);
 }
